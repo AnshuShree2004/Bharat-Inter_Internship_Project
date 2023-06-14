@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(15, 15, 15);
+  }
+  
+  .line {
+    height: 5px;
+    width: 60%;
+    border-radius: 10px;
+    background-color: #fde128;
+  }
+  
+  .projects-left {
+    width: 40%;
+  }
+  
+  .projects-right {
+    width: 40%;
+    margin-bottom: 5%;
+  }
+  
+  .projects-right h1 {
+    padding-left: 2%;
+    font-size: 3rem;
+    color: #d6138e;
+    font-family: "Roboto Slab", serif;
+  }
+  
+  .project-content {
+    display: flex;
+    padding-top: 30px;
+  }
+  
+  .project-list {
+    margin: 10px;
+  }
+  
+  .project-list h4 {
+    padding-bottom: 6px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .project-list div {
+    position: relative;
+    height: 100px;
+    width: 150px;
+    background-color: azure;
+  }
+  
+  .project-list div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .project-list div .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .project-list div:hover .overlay {
+    opacity: 1;
+  }
+  
+  .project-list div .overlay::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  

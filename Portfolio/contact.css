@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(15, 15, 15);
+}
+
+.line{
+    height: 5px;
+    width: 70%;
+    border-radius: 10px;
+    background-color: #fde128;
+    margin-bottom: 30px;
+}
+
+.contact-left{
+    width: 30%;
+    padding-left: 7%;
+}
+.contact-left h1{
+    padding-left: 2%;
+    font-size: 3rem;
+    color: #d6138e;
+  
+    font-family: "Roboto Slab", serif;
+}
+
+label{
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input{
+    padding:9px 21px;
+    background-color: rgb(74, 77, 76);
+    font-family: "Roboto Slab", serif;
+}
+
+.contact-left button{
+    margin-top: 13px;
+    background-color: #fde128;
+   
+}
+
+.contact-right{
+    width: 40%;
+}
+
+textarea{
+    background-color: rgb(74, 77, 76);
+}

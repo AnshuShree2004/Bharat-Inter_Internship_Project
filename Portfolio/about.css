@@ -1,0 +1,43 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    background-color: rgb(15, 15, 15);
+}
+
+.about-left{
+    width: 40vw;
+}
+.about-left img{
+   height: 400px;
+}
+
+.about-right{
+    position: relative;
+ width:40vw;
+ padding-left: 5%;
+ padding-bottom: 5%;
+}
+
+.about-right h1{
+    padding-left: 2%;
+    font-size: 3rem;
+    color: #d6138e;
+  
+    font-family: "Roboto Slab", serif;
+}
+
+.about-right div{
+    height: 5px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #fde128;
+}
+
+.about-right p{
+    padding-top: 5%;
+    font-family: 'Ubuntu', sans-serif;  
+}
