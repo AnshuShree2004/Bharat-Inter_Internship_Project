@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: aliceblue;
+  background-color: rgb(44, 43, 43);
+  
+}
+
+/*-------- header css includes navbar------------*/
+header{
+  height: 7%;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+  position: fixed;
+  background-color: rgb(44, 43, 43);
+  width: 100%;
+}
+
+.container-left{
+    
+    width:40%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    height: 70px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    padding:10px 14px;
+    color: antiquewhite;
+}
+
+ul li a:hover{
+  color: rgb(228, 3, 3);
+}
+
+
+.container-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.container-right i{
+    padding:0 16px ;
+}
+
+/*------------ main page css includes hero section --------------*/
+
+.netflix-shows{
+  padding-top: 4%;
+}
+
+.hero {
+  background-image: linear-gradient(to right, rgb(0, 0, 0,0.6), rgba(19, 18, 18, 0.3)),url("./assests/extra/bg-image.jpg");
+ background-size: cover;
+ background-position: relative;
+ background-repeat: no-repeat;
+ background-attachment: scroll;
+  height: 100%;
+  
+}
+
+ .left{
+  padding-top: 20%;
+  padding-left: 3%;
+  width: 40%;
+}
+
+.left h1{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 63px;
+}
+
+.left p{
+  font-family: 'Roboto', sans-serif;
+}
+
+button{
+  
+  padding: 10px 12px;
+  background-color: rgb(213, 213, 213,0.2);
+  border: 1px solid rgb(213, 213, 213,0.1);
+   margin: 30px 10px;
+   font-weight: 600;
+}
+
+
+
+
+button:hover{
+  background-color: rgb(221, 218, 218);
+}
+
+.show{
+  padding: 1.5%;
+}
+
+.show h3{
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 1%;
+}
+
+.show div{
+    width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+.show div::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }
+
+.show div{
+    display: inline-block;
+  }
+  
+  .show div img{
+    width: 400px;
+  height: auto;
+  margin-right: 10px;
+  }
+
+  .show div img:hover{
+    transform: scale(1.3);
+  }

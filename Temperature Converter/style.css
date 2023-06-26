@@ -128,3 +128,32 @@ background-color: #b2d09e;
   margin-top: 4%;
   text-align: center;
 }
+
+
+/* Responsive styles */
+
+@media screen and (max-width: 768px) {
+  /* Adjust the styles for smaller screens */
+
+  nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .real-content {
+    height: auto;
+    width: 90%;
+    max-width: 500px;
+    margin-top: 10%;
+  }
+
+  .temp-container {
+    flex-direction: column;
+  }
+
+  .temp-left,
+  .temp-right {
+    padding: 10px;
+  }
+}

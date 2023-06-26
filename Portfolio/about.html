@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="./home.css" />
     <link rel="stylesheet" href="./about.css" />
 
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
     <!-- fontawesome link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
@@ -44,21 +46,7 @@
         <div class="about-right">
             <h1>Know me</h1>
             <div></div>
-            <p>I'm Anshu Shree, a passionate Frontend web developer dedicated to Web develoment. With 2 years of experience, I have developed a strong foundation in HTML, CSS, JavaScript.
-                <br>
-                
-
-                I approach my work with a meticulous eye for detail and a drive to deliver exceptional results. Collaboration is at the heart of my process, and I thrive in team environments where I can learn, contribute, and create meaningful connections.
-
-                
-                <br>
-
-                I am driven by a deep belief in the transformative power of [Your Field of Expertise] and continuously seek opportunities to innovate and push boundaries. My journey has taught me the value of adaptability and perseverance, which have been instrumental in overcoming challenges and achieving growth.
-
-                
-                <br>
-
-                Thank you for taking the time to explore my portfolio, and I look forward to connecting with you to discuss how we can collaborate and create something extraordinary together!
+            <p> <span id="element"></span>
             
             </p>
         </div>
@@ -79,6 +67,13 @@
     </div>
 </footer>
     
+<script>
+    
+  var typed = new Typed('#element', {
+    strings: ['I am Anshu Shree, a passionate Frontend web developer dedicated to Web develoment. With 2 years of experience, I have developed a strong foundation in HTML, CSS, JavaScript.                                                                                                                                    I approach my work with a meticulous eye for detail and a drive to deliver exceptional results. Collaboration is at the heart of my process, and I thrive in team environments where I can learn, contribute, and create meaningful connections.                                           I am driven by a deep belief in the transformative power of [Your Field of Expertise] and continuously seek opportunities to innovate and push boundaries. My journey has taught me the value of adaptability and perseverance, which have been instrumental in overcoming challenges and achieving growth.                                                                                                                                   Thank you for taking the time to explore my portfolio, and I look forward to connecting with you to discuss how we can collaborate and create something extraordinary together!'],
+    typeSpeed: 30,
+  });
+</script>
 
   </body>
 </html>

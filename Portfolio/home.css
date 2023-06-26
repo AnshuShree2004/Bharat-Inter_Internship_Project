@@ -31,9 +31,16 @@ header {
   object-fit: cover;
   z-index: -1;
 }
+
+
+
+
+
 a {
   text-decoration: none;
 }
+
+
 nav {
   display: flex;
   justify-content: center;
@@ -145,7 +152,10 @@ main {
 
 .intro-btn button:hover {
   border: 1px solid #d6138e;
-  background-color: #d87fb8;
+  background-color: #dc5fae;
+  transform: scale(0.9); 
+  color: black;
+ 
 }
 
 .intro-btn button a {
@@ -154,6 +164,7 @@ main {
 
 .intro-btn button a:hover {
   color: rgb(5, 5, 5);
+  
 }
 
 .right {
@@ -163,6 +174,10 @@ main {
 .right img {
   height: 40vh;
 }
+.right img:hover{
+  transform: scale(1.2); 
+}
+
 
 /*------------ footer section --------------*/
 footer {
@@ -184,3 +199,51 @@ i {
 i:hover {
   transform: scale(1.5);
 }
+
+
+@media only screen and (max-width: 788px){
+
+nav{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.left{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40%;
+}
+
+
+
+.right img{
+  height:45%;
+}
+
+button{
+  margin-bottom: 12px;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.connect{
+  text-align: left;
+  margin: 45px;
+}
+
+.social-media i{
+
+ padding: 14px;
+}
+
+}
+
+
